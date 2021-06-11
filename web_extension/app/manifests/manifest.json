@@ -1,0 +1,23 @@
+{
+    "name": "Kollect card",
+    "description" : "This extension show summary of your Kollect card", 
+    "version": "1.0",
+    "menifest_version": 2,
+    "contene_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "broser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Card",
+        "default_icon" : "icon.png"
+    },
+    
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs"]
+    
+} 
